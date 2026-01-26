@@ -1,0 +1,38 @@
+{
+  "name": "nexus",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "version": "1.0.0",
+  "description": "This is the readme file for this project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryashantanu405/Nexus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aryashantanu405/Nexus/issues"
+  },
+  "homepage": "https://github.com/aryashantanu405/Nexus#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongoose": "^8.19.3",
+    "nanoid": "^5.1.6",
+    "socket.io": "^4.8.1"
+  }
+}
